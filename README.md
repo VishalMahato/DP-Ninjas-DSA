@@ -10,7 +10,7 @@ This repository serves as a centralized hub where our team of 4 members uploads 
 ## 👥 Team Members
 
 - Member 1
-- Member 2
+- Member 2- Prashansa
 - Member 3
 - Member 4
 
