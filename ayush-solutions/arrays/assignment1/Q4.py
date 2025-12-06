@@ -1,14 +1,19 @@
 # Q.4 - Find Minimum and Maximum in an Array
-#    Write a program to find the smallest (min) and largest (max) number in the array.
+#       Write a program to find the smallest (min) and largest (max) number in the array.
 
-# Approch 1 using functions
-arr = [2, 6, 9, 15, 29, 7]
+arr = [12, 5, 34, 2, 19]
 
-minimum = min(arr)
-maximum = max(arr)
+# Assume first element is min and max
+minimum = arr[0]
+maximum = arr[0]
 
-print("min = ", minimum)
-print("max = ", maximum)
+for num in arr:
+    # Checking minimum
+    if num < minimum:
+        minimum = num
+    # Checking maximum
+    if num > maximum:
+        maximum = num
 
-# Approch 2 
-
+print("Smallest number:", minimum)
+print("Largest number:", maximum)
