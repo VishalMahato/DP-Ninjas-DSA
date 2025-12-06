@@ -1,0 +1,3 @@
+def print_array(arr):
+    # prints elements space-separated
+    print(*arr)
